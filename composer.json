@@ -1,0 +1,26 @@
+{
+    "name": "maple/spider",
+    "authors": [
+        {
+            "name": "maple",
+            "email": "maple@git.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "workerman/workerman": "^3.5",
+        "workerman/mysql": "^1.0",
+        "ext-curl": "^7.1",
+        "ext-mbstring": "^7.1",
+        "ext-json": "^1.5"
+    },
+    "autoload": {
+        "files": [
+            "spider/helper.php"
+        ],
+        "psr-4": {
+            "spider\\" : "spider",
+            "app\\" : "app"
+        }
+    }
+}

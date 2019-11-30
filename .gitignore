@@ -1,0 +1,4 @@
+.idea
+*.pid
+*.log
+vendor/
